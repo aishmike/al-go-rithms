@@ -9,7 +9,7 @@ char b[100][100];
 
 void print(int i, int j) {
     if(i == 0 || j == 0)
-        return;
+        return 0;
     if(b[i][j] == 'x') {
         print(i-1, j-1);
         cout<<s1[i-1];
